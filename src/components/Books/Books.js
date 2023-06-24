@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import logo from '../../logo.png'
 import './Books.css'
 import Book from '../Book/Book';
+import Details from '../Details/Details';
 
 const Books = () => {
     const [books, setBooks] = useState([])
@@ -25,7 +26,7 @@ const Books = () => {
                 </div>
             </div>
             <div className="details">
-                <h2>Activity Detials</h2>
+                <Details></Details>
             </div>
         </div>
     );

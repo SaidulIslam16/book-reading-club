@@ -1,0 +1,10 @@
+.profile img {
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}

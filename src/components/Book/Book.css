@@ -24,3 +24,10 @@
     width: 100%;
     border-radius: 20px;
 }
+
+/* Details Section */
+
+.details {
+    background-color: white;
+    padding: 20px 10px;
+}
