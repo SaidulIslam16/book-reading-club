@@ -134,3 +134,11 @@
     cursor: pointer;
     border-radius: 10px;
 }
+
+@media (max-width: 767px) {
+    .details {
+        margin: 0 20px;
+        border-radius: 20px;
+
+    }
+}
