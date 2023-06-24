@@ -6,9 +6,11 @@ import { addToDb, getBreakTime } from '../../utilities/database';
 
 const Details = ({ seledtedBooks }) => {
     const [breakTime, setBreakTime] = useState(0);
+    const [selectedBtn, setSelectedBtn] = useState(null)
     const addBreak = (min) => {
         setBreakTime(min)
         addToDb(min);
+        setSelectedBtn(min);
     }
 
     useEffect(() => {
@@ -45,10 +47,10 @@ const Details = ({ seledtedBooks }) => {
             <div className="add-break-section">
                 <h2>Add a Break</h2>
                 <div className="add-break">
-                    <button onClick={() => addBreak(10)}><span>10</span>min</button>
-                    <button onClick={() => addBreak(15)}><span>15</span>min</button>
-                    <button onClick={() => addBreak(20)}><span>20</span>min</button>
-                    <button onClick={() => addBreak(30)}><span>30</span>min</button>
+                    <button onClick={() => addBreak(10)} className={selectedBtn === 10 ? 'selected' : ''}><span>10</span>min</button>
+                    <button onClick={() => addBreak(15)} className={selectedBtn === 15 ? 'selected' : ''}><span>15</span>min</button>
+                    <button onClick={() => addBreak(20)} className={selectedBtn === 20 ? 'selected' : ''}><span>20</span>min</button>
+                    <button onClick={() => addBreak(30)} className={selectedBtn === 30 ? 'selected' : ''}><span>30</span>min</button>
                 </div>
             </div>
             <div className="reading-details-section">
