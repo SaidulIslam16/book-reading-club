@@ -1,13 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Profile from '../../profile.jpg'
 import './Details.css'
+import { addToDb, getBreakTime } from '../../utilities/database';
 // Font awesome
 
 const Details = ({ seledtedBooks }) => {
     const [breakTime, setBreakTime] = useState(0);
     const addBreak = (min) => {
         setBreakTime(min)
+        addToDb(min);
     }
+
+    useEffect(() => {
+        const selectedBreakTime = getBreakTime();
+        setBreakTime(selectedBreakTime);
+    }, [])
+
+
 
     // Calculating total time of reading
     let readingTime = 0;
@@ -15,6 +24,7 @@ const Details = ({ seledtedBooks }) => {
         readingTime += parseFloat(book.estimated_time_to_finish);
     });
 
+    // main return of the details component
     return (
         <div className='details'>
             <div className='profile' >
