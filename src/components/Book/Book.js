@@ -10,7 +10,7 @@ const Book = (props) => {
             <h2>{book_title}</h2>
             <p><span className='author'>Author:</span> {author}</p>
             <p>{description}</p>
-            <p>Time Required to Finish: <span className='reading-time'>{estimated_time_to_finish} days</span></p>
+            <p>Time Required to Finish: <span className='reading-time'>{estimated_time_to_finish} hours</span></p>
             <button className='add-to-list-btn'>Add to List</button>
         </div>
     );
