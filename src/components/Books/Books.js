@@ -1,18 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../../logo.png'
 import './Books.css'
 import Book from '../Book/Book';
 
 const Books = () => {
+    const [books, setBooks] = useState([])
+    useEffect(() => {
+        fetch('books.json')
+            .then(res => res.json())
+            .then(data => setBooks(data))
+    }, [])
     return (
-        <div>
-            <div className='logo'>
-                <img src={logo} alt="" />
-                <h2>Book Reading Club</h2>
+        <div className='books-comp'>
+            <div className="books-container">
+                <div className='logo'>
+                    <img src={logo} alt="" />
+                    <h2>Book Reading Club</h2>
+                </div>
+                <h2>Select Today's Books</h2>
+                <div className='books'>
+                    {
+                        books.map(book => <Book book={book} key={book.book_id} ></Book>)
+                    }
+                </div>
             </div>
-            <h2>Select Today's Books</h2>
-            <div className='books'>
-                <Book></Book>
+            <div className="details">
+                <h2>Activity Detials</h2>
             </div>
         </div>
     );

@@ -1,3 +1,12 @@
+.books-comp {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.books-container {
+    margin: 50px 100px 0 100px;
+}
+
 .logo {
     display: flex;
     align-items: center;
