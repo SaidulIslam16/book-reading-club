@@ -1,9 +1,10 @@
 import React from 'react';
 import './Book.css'
 
-const Book = (props) => {
-    // console.log(props.books.book_title)
-    const { book_cover_image, book_title, description, estimated_time_to_finish, author } = props.book;
+const Book = ({ book, addToList }) => {
+    // console.log(books.book_title)
+    const { book_cover_image, book_title, description, estimated_time_to_finish, author } = book;
+    // console.log(book)
     return (
         <div className='book'>
             <img src={book_cover_image} alt="" />
@@ -11,7 +12,7 @@ const Book = (props) => {
             <p><span className='author'>Author:</span> {author}</p>
             <p>{description}</p>
             <p>Time Required to Finish: <span className='reading-time'>{estimated_time_to_finish} hours</span></p>
-            <button className='add-to-list-btn'>Add to List</button>
+            <button className='add-to-list-btn' onClick={() => addToList(book)}>Add to List</button>
         </div>
     );
 };

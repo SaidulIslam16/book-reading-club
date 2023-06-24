@@ -6,11 +6,19 @@ import Details from '../Details/Details';
 
 const Books = () => {
     const [books, setBooks] = useState([])
+    const [seledtedBooks, setSelectedBooks] = useState([])
     useEffect(() => {
         fetch('books.json')
             .then(res => res.json())
             .then(data => setBooks(data))
     }, [])
+
+    // Add to list event handlr
+
+    const addToList = (book) => {
+        const newseledtedBooks = [...seledtedBooks, book];
+        setSelectedBooks(newseledtedBooks);
+    }
     return (
         <div className='books-comp'>
             <div className="books-container">
@@ -21,12 +29,12 @@ const Books = () => {
                 <h2>Select Today's Books</h2>
                 <div className='books'>
                     {
-                        books.map(book => <Book book={book} key={book.book_id} ></Book>)
+                        books.map(book => <Book book={book} key={book.book_id} addToList={addToList} ></Book>)
                     }
                 </div>
             </div>
             <div className="details">
-                <Details></Details>
+                <Details seledtedBooks={seledtedBooks}></Details>
             </div>
         </div>
     );

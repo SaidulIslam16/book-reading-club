@@ -3,11 +3,18 @@ import Profile from '../../profile.jpg'
 import './Details.css'
 // Font awesome
 
-const Details = () => {
+const Details = ({ seledtedBooks }) => {
     const [breakTime, setBreakTime] = useState(0);
     const addBreak = (min) => {
         setBreakTime(min)
     }
+
+    // Calculating total time of reading
+    let readingTime = 0;
+    seledtedBooks.forEach(book => {
+        readingTime += parseFloat(book.estimated_time_to_finish);
+    });
+
     return (
         <div className='details'>
             <div className='profile' >
@@ -36,11 +43,14 @@ const Details = () => {
             </div>
             <div className="reading-details-section">
                 <h2>Reading Details</h2>
+                <div>
+                    <p>Books Selected: {seledtedBooks.length}</p>
+                </div>
                 <div className="reading-time-dtls">
-                    <p>Reading Time: <span className='min'> {breakTime} min</span></p>
+                    <p>Break Time: <span className='min'> {breakTime} min</span></p>
                 </div>
                 <div className="break-time-dtls">
-                    <p>Break Time: <span className='hours'>hours</span></p>
+                    <p>Reading Time: <span className='hours'> {readingTime} hours</span></p>
                 </div>
             </div>
             <div>
