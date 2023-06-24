@@ -55,8 +55,8 @@ const Details = ({ seledtedBooks }) => {
             </div>
             <div className="reading-details-section">
                 <h2>Reading Details</h2>
-                <div>
-                    <p>Books Selected: {seledtedBooks.length}</p>
+                <div className='selected-book-numbers'>
+                    <p className='selected-book-numbers'>Books Selected: {seledtedBooks.length}</p> <button className='review-btn'>Review</button>
                 </div>
                 <div className="reading-time-dtls">
                     <p>Break Time: <span className='min'> {breakTime} min</span></p>

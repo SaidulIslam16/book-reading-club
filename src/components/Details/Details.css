@@ -86,6 +86,26 @@
     border-radius: 10px;
 }
 
+.review-btn {
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(249, 124, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.selected-book-numbers p {
+    margin: 5px 0;
+}
+
+.selected-book-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .min,
 .hours {
     color: gray;

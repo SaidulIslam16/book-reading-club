@@ -5,8 +5,11 @@ import Book from '../Book/Book';
 import Details from '../Details/Details';
 
 const Books = () => {
-    const [books, setBooks] = useState([])
-    const [seledtedBooks, setSelectedBooks] = useState([])
+    const [books, setBooks] = useState([]);
+    const [seledtedBooks, setSelectedBooks] = useState([]);
+    const [selectedAddBtn, setSelectedAddBtn] = useState(null);
+    // Button text
+    const [btn_id, setBtn_id] = useState(null);
     useEffect(() => {
         fetch('books.json')
             .then(res => res.json())
@@ -16,8 +19,11 @@ const Books = () => {
     // Add to list event handlr
 
     const addToList = (book) => {
+        // console.log(book)
         const newseledtedBooks = [...seledtedBooks, book];
         setSelectedBooks(newseledtedBooks);
+        setSelectedAddBtn(book.book_id)
+        setBtn_id(book.book_id);
     }
     return (
         <div className='books-comp'>
@@ -29,7 +35,7 @@ const Books = () => {
                 <h2>Select Today's Books</h2>
                 <div className='books'>
                     {
-                        books.map(book => <Book book={book} key={book.book_id} addToList={addToList} ></Book>)
+                        books.map(book => <Book book={book} key={book.book_id} addToList={addToList} selectedAddBtn={selectedAddBtn} btn_id={btn_id}></Book>)
                     }
                 </div>
             </div>
