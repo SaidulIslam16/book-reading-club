@@ -6,7 +6,7 @@
         "pages_read": 50,
         "date": "2023-06-01",
         "book_cover_image": "https://drive.google.com/uc?export=view&id=1RZW30j4AQxZOGyaryL9XfjLBzJ7kcD2n",
-        "estimated_time_to_finish": "7 days",
+        "estimated_time_to_finish": "7 ",
         "description": "A thrilling adventure of a young girl named Alice who falls into a whimsical world filled with peculiar characters and nonsensical situations."
     },
     {
@@ -16,7 +16,7 @@
         "pages_read": 120,
         "date": "2023-06-02",
         "book_cover_image": "https://drive.google.com/uc?export=view&id=1QTAS4ayrYfxCymtEthZyllGlOzHU8xwf",
-        "estimated_time_to_finish": "10 days",
+        "estimated_time_to_finish": "10 ",
         "description": "Set in the Roaring Twenties, this classic novel portrays the glamorous and decadent lives of Jay Gatsby and his obsession with the beautiful Daisy Buchanan."
     },
     {
@@ -26,7 +26,7 @@
         "pages_read": 80,
         "date": "2023-06-03",
         "book_cover_image": "https://drive.google.com/uc?export=view&id=1VC7w7d34pwsVWU7vtkxfapTJjJYPtFqC",
-        "estimated_time_to_finish": "6 days",
+        "estimated_time_to_finish": "6 ",
         "description": "A powerful story that delves into themes of racial injustice, morality, and childhood innocence through the eyes of Scout Finch in the Deep South."
     },
     {
@@ -36,7 +36,7 @@
         "pages_read": 70,
         "date": "2023-06-04",
         "book_cover_image": "https://drive.google.com/uc?export=view&id=1r4fjZ6vrVa6SxPSZopJYiPQ7bkkMsVem",
-        "estimated_time_to_finish": "8 days",
+        "estimated_time_to_finish": "8 ",
         "description": "A dystopian novel set in a totalitarian society, where Big Brother watches everyone and the protagonist, Winston Smith, rebels against the oppressive regime."
     },
     {
@@ -46,7 +46,7 @@
         "pages_read": 100,
         "date": "2023-06-05",
         "book_cover_image": "https://drive.google.com/uc?export=view&id=1xD21gSxTCAL300lH0WZ96ghHkSVZWcg5",
-        "estimated_time_to_finish": "9 days",
+        "estimated_time_to_finish": "9 ",
         "description": "A witty and captivating tale of romance and social hierarchy in 19th-century England, focusing on the spirited Elizabeth Bennet and the enigmatic Mr. Darcy."
     },
     {
@@ -56,7 +56,7 @@
         "pages_read": 90,
         "date": "2023-06-06",
         "book_cover_image": "https://drive.google.com/uc?export=view&id=1CttnfInLzZXAD94tLMDhaC0uCAOlV6kb",
-        "estimated_time_to_finish": "7 days",
+        "estimated_time_to_finish": "7 ",
         "description": "Embark on an epic adventure with Bilbo Baggins as he joins a band of dwarves to reclaim their homeland from the fearsome dragon Smaug."
     },
     {
@@ -66,7 +66,7 @@
         "pages_read": 150,
         "date": "2023-06-07",
         "book_cover_image": "https://drive.google.com/uc?export=view&id=1oGQsHDQIU6k9bRcijpm-V5oYMDWXnQHU",
-        "estimated_time_to_finish": "12 days",
+        "estimated_time_to_finish": "12 ",
         "description": "Join Captain Ahab and the crew of the Pequod on an epic quest for revenge against the white whale, Moby-Dick, in this symbolic and philosophical masterpiece."
     },
     {
@@ -76,7 +76,7 @@
         "pages_read": 60,
         "date": "2023-06-08",
         "book_cover_image": "https://drive.google.com/uc?export=view&id=1ncf4RjDZVK9YX85ktigiYj44gA6ePpyM",
-        "estimated_time_to_finish": "5 days",
+        "estimated_time_to_finish": "5 ",
         "description": "Follow the journey of Jane Eyre, a resilient and independent woman, as she faces challenges, discovers love, and seeks her place in a rigid Victorian society."
     },
     {
@@ -86,7 +86,7 @@
         "pages_read": 110,
         "date": "2023-06-09",
         "book_cover_image": "https://drive.google.com/uc?export=view&id=1did8V8hAijTfM_K5tr8w0HygrxA6EkQc",
-        "estimated_time_to_finish": "9 days",
+        "estimated_time_to_finish": "9 ",
         "description": "Narrated by the disillusioned teenager Holden Caulfield, this influential novel explores themes of alienation, identity, and the challenges of transitioning into adulthood."
     }
 ]

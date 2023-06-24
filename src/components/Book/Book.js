@@ -1,15 +1,17 @@
 import React from 'react';
+import './Book.css'
 
 const Book = (props) => {
     // console.log(props.books.book_title)
     const { book_cover_image, book_title, description, estimated_time_to_finish, author } = props.book;
     return (
-        <div>
+        <div className='book'>
             <img src={book_cover_image} alt="" />
             <h2>{book_title}</h2>
-            <p>{author}</p>
+            <p><span className='author'>Author:</span> {author}</p>
             <p>{description}</p>
-            <p>{estimated_time_to_finish}</p>
+            <p>Time Required to Finish: <span className='reading-time'>{estimated_time_to_finish} days</span></p>
+            <button className='add-to-list-btn'>Add to List</button>
         </div>
     );
 };

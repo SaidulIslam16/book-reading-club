@@ -17,3 +17,9 @@
     width: 50px;
     margin-right: 10px;
 }
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+}
