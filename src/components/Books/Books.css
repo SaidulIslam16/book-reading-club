@@ -1,0 +1,10 @@
+.logo {
+    display: flex;
+    align-items: center;
+    color: #226be9;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
