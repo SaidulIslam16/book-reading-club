@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './Book.css'
 
 const Book = ({ book, addToList, selectedAddBtn, btn_id }) => {

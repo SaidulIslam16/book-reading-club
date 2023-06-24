@@ -4,7 +4,7 @@ import './Details.css'
 import { addToDb, getBreakTime } from '../../utilities/database';
 // Font awesome
 
-const Details = ({ seledtedBooks }) => {
+const Details = ({ seledtedBooks, toastHandlr }) => {
     const [breakTime, setBreakTime] = useState(0);
     const [selectedBtn, setSelectedBtn] = useState(null)
     const addBreak = (min) => {
@@ -66,7 +66,7 @@ const Details = ({ seledtedBooks }) => {
                 </div>
             </div>
             <div>
-                <button className='complete-btn'>Activity Completed</button>
+                <button className={toastHandlr.completedBtnClass} onClick={toastHandlr.handleToastClick}>{toastHandlr.completedBtnText}</button>
             </div>
         </div>
     );

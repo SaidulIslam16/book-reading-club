@@ -4,7 +4,7 @@ import './Books.css'
 import Book from '../Book/Book';
 import Details from '../Details/Details';
 
-const Books = () => {
+const Books = ({ toastHandlr }) => {
     const [books, setBooks] = useState([]);
     const [seledtedBooks, setSelectedBooks] = useState([]);
     const [selectedAddBtn, setSelectedAddBtn] = useState(null);
@@ -40,7 +40,7 @@ const Books = () => {
                 </div>
             </div>
             <div className="details">
-                <Details seledtedBooks={seledtedBooks}></Details>
+                <Details seledtedBooks={seledtedBooks} toastHandlr={toastHandlr}></Details>
             </div>
         </div>
     );
