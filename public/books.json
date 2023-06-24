@@ -1,0 +1,92 @@
+[
+    {
+        "book_id": 1234,
+        "book_title": "The Adventures of Alice",
+        "author": "John Smith",
+        "pages_read": 50,
+        "date": "2023-06-01",
+        "book_cover_image": "https://drive.google.com/uc?export=view&id=1RZW30j4AQxZOGyaryL9XfjLBzJ7kcD2n",
+        "estimated_time_to_finish": "7 days",
+        "description": "A thrilling adventure of a young girl named Alice who falls into a whimsical world filled with peculiar characters and nonsensical situations."
+    },
+    {
+        "book_id": 5678,
+        "book_title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "pages_read": 120,
+        "date": "2023-06-02",
+        "book_cover_image": "https://drive.google.com/uc?export=view&id=1QTAS4ayrYfxCymtEthZyllGlOzHU8xwf",
+        "estimated_time_to_finish": "10 days",
+        "description": "Set in the Roaring Twenties, this classic novel portrays the glamorous and decadent lives of Jay Gatsby and his obsession with the beautiful Daisy Buchanan."
+    },
+    {
+        "book_id": 9012,
+        "book_title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "pages_read": 80,
+        "date": "2023-06-03",
+        "book_cover_image": "https://drive.google.com/uc?export=view&id=1VC7w7d34pwsVWU7vtkxfapTJjJYPtFqC",
+        "estimated_time_to_finish": "6 days",
+        "description": "A powerful story that delves into themes of racial injustice, morality, and childhood innocence through the eyes of Scout Finch in the Deep South."
+    },
+    {
+        "book_id": 3456,
+        "book_title": "1984",
+        "author": "George Orwell",
+        "pages_read": 70,
+        "date": "2023-06-04",
+        "book_cover_image": "https://drive.google.com/uc?export=view&id=1r4fjZ6vrVa6SxPSZopJYiPQ7bkkMsVem",
+        "estimated_time_to_finish": "8 days",
+        "description": "A dystopian novel set in a totalitarian society, where Big Brother watches everyone and the protagonist, Winston Smith, rebels against the oppressive regime."
+    },
+    {
+        "book_id": 7890,
+        "book_title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "pages_read": 100,
+        "date": "2023-06-05",
+        "book_cover_image": "https://drive.google.com/uc?export=view&id=1xD21gSxTCAL300lH0WZ96ghHkSVZWcg5",
+        "estimated_time_to_finish": "9 days",
+        "description": "A witty and captivating tale of romance and social hierarchy in 19th-century England, focusing on the spirited Elizabeth Bennet and the enigmatic Mr. Darcy."
+    },
+    {
+        "book_id": 2345,
+        "book_title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "pages_read": 90,
+        "date": "2023-06-06",
+        "book_cover_image": "https://drive.google.com/uc?export=view&id=1CttnfInLzZXAD94tLMDhaC0uCAOlV6kb",
+        "estimated_time_to_finish": "7 days",
+        "description": "Embark on an epic adventure with Bilbo Baggins as he joins a band of dwarves to reclaim their homeland from the fearsome dragon Smaug."
+    },
+    {
+        "book_id": 6789,
+        "book_title": "Moby-Dick",
+        "author": "Herman Melville",
+        "pages_read": 150,
+        "date": "2023-06-07",
+        "book_cover_image": "https://drive.google.com/uc?export=view&id=1oGQsHDQIU6k9bRcijpm-V5oYMDWXnQHU",
+        "estimated_time_to_finish": "12 days",
+        "description": "Join Captain Ahab and the crew of the Pequod on an epic quest for revenge against the white whale, Moby-Dick, in this symbolic and philosophical masterpiece."
+    },
+    {
+        "book_id": 0123,
+        "book_title": "Jane Eyre",
+        "author": "Charlotte Bronte",
+        "pages_read": 60,
+        "date": "2023-06-08",
+        "book_cover_image": "https://drive.google.com/uc?export=view&id=1ncf4RjDZVK9YX85ktigiYj44gA6ePpyM",
+        "estimated_time_to_finish": "5 days",
+        "description": "Follow the journey of Jane Eyre, a resilient and independent woman, as she faces challenges, discovers love, and seeks her place in a rigid Victorian society."
+    },
+    {
+        "book_id": 4567,
+        "book_title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "pages_read": 110,
+        "date": "2023-06-09",
+        "book_cover_image": "https://drive.google.com/uc?export=view&id=1did8V8hAijTfM_K5tr8w0HygrxA6EkQc",
+        "estimated_time_to_finish": "9 days",
+        "description": "Narrated by the disillusioned teenager Holden Caulfield, this influential novel explores themes of alienation, identity, and the challenges of transitioning into adulthood."
+    }
+]
